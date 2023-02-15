@@ -1,0 +1,229 @@
+#resources_bg {
+  width: 39.11vw;
+  height: 39.13vw;
+  margin-left: 57.47vw;
+  margin-top: 3.9vw;
+}
+
+#resource_heading {
+  position: absolute;
+  width: 19.54vw;
+  height: 4.09vw;
+  left: 8.56vw;
+  top: 14.34vw;
+
+  /* POPPINS HEADING */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.92vw;
+  line-height: 4.24vw;
+
+  color: #212121;
+}
+
+#resource_sub {
+  position: absolute;
+  width: 38.14vw;
+  height: 4.68vw;
+  left: 8.78vw;
+  top: 21.96vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.31vw;
+  line-height: 2.34vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.column_res_a {
+  float: left;
+  width: 31.17vw;
+  height: 28.69vw;
+  margin-left: 12.05vw;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  justify-content: center;
+}
+.column_res_a:hover {
+  background: #f3f6fd;
+
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+
+  box-shadow: 0px 0px 24px rgba(183, 183, 183, 0.18),
+    0px 5px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 1px;
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+  align-content: center;
+}
+
+.column_res_b:hover {
+  background: #f3f6fd;
+
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+
+  box-shadow: 0px 0px 24px rgba(183, 183, 183, 0.18),
+    0px 5px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 1px;
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+  align-content: center;
+}
+
+.column_res_b {
+  float: left;
+  width: 31.17vw;
+  height: 28.69vw;
+  margin-left: 12.05vw;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+  justify-content: center;
+}
+
+.row_res::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row_res {
+  width: 98vw;
+  margin-bottom: 6.51vw;
+}
+
+.icon_resource {
+  width: 3.51vw;
+  height: 3.51vw;
+  margin-left: 13.72vw;
+  margin-top: 1.75vw;
+}
+
+.res_card {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.95vw;
+  line-height: 2.47vw;
+  /* identical to box height, or 127% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* headings */
+
+  color: #212121;
+  margin-left: 8.87vw;
+  margin-top: 2.78vw;
+}
+
+.res_card_con {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.95vw;
+  line-height: 2.47vw;
+  /* identical to box height, or 127% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* headings */
+
+  color: #212121;
+  margin-left: 11.17vw;
+  margin-top: 2.78vw;
+}
+
+.res_content {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.31vw;
+  line-height: 2.34vw;
+
+  text-align: center;
+
+  color: #4f4f4f;
+
+  margin-top: 2.31vw;
+  margin-left: 1.97vw;
+}
+
+.res_link {
+  width: 11.56vw;
+  height: 1.9vw;
+  margin-left: 9.1vw;
+  margin-top: 3.52vw;
+
+  /* unwrapped button 2 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.17vw;
+  line-height: 1.75vw;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* new blue */
+
+  color: #324fc5;
+  /* grey 6 */
+}
+
+.res_link_b {
+  width: 11.56vw;
+  height: 1.9vw;
+  margin-left: 11.1vw;
+  margin-top: 3.52vw;
+
+  /* unwrapped button 2 */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.17vw;
+  line-height: 1.75vw;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* new blue */
+
+  color: #324fc5;
+  /* grey 6 */
+}
